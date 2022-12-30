@@ -1,0 +1,27 @@
+{
+  "name": "whiteboard",
+  "version": "1.0.0",
+  "description": "A simple collaborative whiteboard using socket.io",
+  "main": "index.js",
+  "keywords": [
+    "socket.io",
+    "whiteboard"
+  ],
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.2",
+    "cors": "^2.8.5",
+    "express": "~4.17.1",
+    "nodemon": "^2.0.20",
+    "serve": "^14.1.2",
+    "socket.io": "^4.0.0",
+    "socket.io-client": "^4.5.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Damien Arrachequesne",
+  "license": "MIT"
+}
